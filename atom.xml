@@ -2,20 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.msforever.xyz</id>
     <title>Win7GM&#39;s Blog</title>
-    <subtitle>test</subtitle>
+    <subtitle>今度は頑張る</subtitle>
     <icon>https://blog.msforever.xyz/images/favicon.ico</icon>
     <link href="https://blog.msforever.xyz" />
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-09-22T04:07:25.000Z</updated>
-    <entry>
-        <id>https://blog.msforever.xyz/about/</id>
-        <title>about</title>
-        <link rel="alternate" href="https://blog.msforever.xyz/about/"/>
-        <content type="html"></content>
-        <updated>2020-09-22T04:07:25.000Z</updated>
-    </entry>
+    <updated>2020-09-21T15:58:38.308Z</updated>
     <entry>
         <id>https://blog.msforever.xyz/hello-world/</id>
         <title>Hello World</title>

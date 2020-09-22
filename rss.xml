@@ -2,23 +2,16 @@
 <rss version="2.0">
     <channel>
         <title>Win7GM&#39;s Blog</title>
-        <subtitle>test</subtitle>
+        <subtitle>今度は頑張る</subtitle>
         <icon>https://blog.msforever.xyz/images/favicon.ico</icon>
         <link>https://blog.msforever.xyz</link>
         <author>
           <name>Win7GM</name>
         </author>
-        <description>test</description>
+        <description>Anything.</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 22 Sep 2020 12:07:25 +0800</pubDate>
-        <lastBuildDate>Tue, 22 Sep 2020 12:07:25 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">https://blog.msforever.xyz/about/</guid>
-            <title>about</title>
-            <link>https://blog.msforever.xyz/about/</link>
-            <pubDate>Tue, 22 Sep 2020 12:07:25 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
+        <pubDate>Mon, 21 Sep 2020 23:58:38 +0800</pubDate>
+        <lastBuildDate>Mon, 21 Sep 2020 23:58:38 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">https://blog.msforever.xyz/hello-world/</guid>
             <title>Hello World</title>
