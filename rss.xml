@@ -10,8 +10,15 @@
         </author>
         <description>test</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 21 Sep 2020 23:58:38 +0800</pubDate>
-        <lastBuildDate>Mon, 21 Sep 2020 23:58:38 +0800</lastBuildDate>
+        <pubDate>Tue, 22 Sep 2020 12:07:25 +0800</pubDate>
+        <lastBuildDate>Tue, 22 Sep 2020 12:07:25 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://blog.msforever.xyz/about/</guid>
+            <title>about</title>
+            <link>https://blog.msforever.xyz/about/</link>
+            <pubDate>Tue, 22 Sep 2020 12:07:25 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.msforever.xyz/hello-world/</guid>
             <title>Hello World</title>
