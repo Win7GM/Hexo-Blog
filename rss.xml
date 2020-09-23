@@ -17,9 +17,14 @@
             <title>about</title>
             <link>https://blog.msforever.xyz/about/</link>
             <category term="杂项" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/" />
-            <category term="实验用页面" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/%E5%AE%9E%E9%AA%8C%E7%94%A8%E9%A1%B5%E9%9D%A2/" />
+            <category term="关于" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/%E5%85%B3%E4%BA%8E/" />
+            <category term="ignore_this" scheme="https://blog.msforever.xyz/tags/ignore-this/" />
             <pubDate>Tue, 22 Sep 2020 12:07:25 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;p&gt;### 小透明的小小一步&lt;br /&gt;
+在下 Win7GM，是个小透明。&lt;br /&gt;
+希望自己能在这个博客里留下点有用的东西 XD&lt;/p&gt;
+&lt;p&gt;歌单是 196⑨的 w&lt;/p&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://blog.msforever.xyz/hello-world/</guid>
