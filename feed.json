@@ -7,11 +7,19 @@
     "home_page_url": "https://blog.msforever.xyz",
     "items": [
         {
+            "id": "https://blog.msforever.xyz/instructions-on-the-blog/",
+            "url": "https://blog.msforever.xyz/instructions-on-the-blog/",
+            "title": "instructions-on-the-blog",
+            "date_published": "2020-09-23T13:39:40.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
             "id": "https://blog.msforever.xyz/about/",
             "url": "https://blog.msforever.xyz/about/",
-            "title": "about",
+            "title": "小透明的小小一步",
             "date_published": "2020-09-22T04:07:25.000Z",
-            "content_html": "<p>### 小透明的小小一步<br />\n在下 Win7GM，是个小透明。<br />\n希望自己能在这个博客里留下点有用的东西 XD</p>\n<p>歌单是 196⑨的 w</p>\n",
+            "content_html": "<p>在下 Win7GM，是个小透明。<br />\n希望自己能在这个博客里留下点有用的东西 XD</p>\n<p>歌单是 196⑨的 w</p>\n",
             "tags": [
                 "杂项",
                 "关于",

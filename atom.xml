@@ -8,13 +8,19 @@
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-09-22T04:07:25.000Z</updated>
+    <updated>2020-09-23T13:39:40.000Z</updated>
+    <entry>
+        <id>https://blog.msforever.xyz/instructions-on-the-blog/</id>
+        <title>instructions-on-the-blog</title>
+        <link rel="alternate" href="https://blog.msforever.xyz/instructions-on-the-blog/"/>
+        <content type="html"></content>
+        <updated>2020-09-23T13:39:40.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.msforever.xyz/about/</id>
-        <title>about</title>
+        <title>小透明的小小一步</title>
         <link rel="alternate" href="https://blog.msforever.xyz/about/"/>
-        <content type="html">&lt;p&gt;### 小透明的小小一步&lt;br /&gt;
-在下 Win7GM，是个小透明。&lt;br /&gt;
+        <content type="html">&lt;p&gt;在下 Win7GM，是个小透明。&lt;br /&gt;
 希望自己能在这个博客里留下点有用的东西 XD&lt;/p&gt;
 &lt;p&gt;歌单是 196⑨的 w&lt;/p&gt;
 </content>
