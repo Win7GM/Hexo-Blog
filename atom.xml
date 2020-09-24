@@ -119,6 +119,7 @@ Hexo 的模板指的是在新建的文章（.md）中默认填充的内容。&lt
         <category term="杂项" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/" />
         <category term="博客" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2/" />
         <category term="manual" scheme="https://blog.msforever.xyz/tags/manual/" />
+        <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
         <updated>2020-09-23T13:39:40.000Z</updated>
     </entry>
     <entry>
