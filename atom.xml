@@ -8,34 +8,7 @@
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-09-23T13:56:49.607Z</updated>
-    <entry>
-        <id>https://blog.msforever.xyz/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="https://blog.msforever.xyz/hello-world/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo server
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo generate
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo deploy
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="杂项" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/" />
-        <category term="ignore_this" scheme="https://blog.msforever.xyz/tags/ignore-this/" />
-        <updated>2020-09-23T13:56:49.607Z</updated>
-    </entry>
+    <updated>2020-09-24T12:38:34.751Z</updated>
     <entry>
         <id>https://blog.msforever.xyz/instructions-on-the-blog/</id>
         <title>基于Hexo的博客的安装和配置</title>
@@ -120,7 +93,34 @@ Hexo 的模板指的是在新建的文章（.md）中默认填充的内容。&lt
         <category term="博客" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2/" />
         <category term="manual" scheme="https://blog.msforever.xyz/tags/manual/" />
         <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
-        <updated>2020-09-23T13:39:40.000Z</updated>
+        <updated>2020-09-24T12:38:34.751Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.msforever.xyz/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="https://blog.msforever.xyz/hello-world/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo generate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="杂项" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/" />
+        <category term="ignore_this" scheme="https://blog.msforever.xyz/tags/ignore-this/" />
+        <updated>2020-09-23T13:56:49.607Z</updated>
     </entry>
     <entry>
         <id>https://blog.msforever.xyz/about/</id>
