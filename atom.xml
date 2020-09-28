@@ -8,11 +8,11 @@
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-09-28T10:11:44.725Z</updated>
+    <updated>2020-09-28T10:19:04.753Z</updated>
     <entry>
-        <id>https://blog.msforever.xyz/computer-science/data-structures-1/</id>
+        <id>https://blog.msforever.xyz/note/computer-science/data-structure/data-structures-1/</id>
         <title>1.线性表</title>
-        <link rel="alternate" href="https://blog.msforever.xyz/computer-science/data-structures-1/"/>
+        <link rel="alternate" href="https://blog.msforever.xyz/note/computer-science/data-structure/data-structures-1/"/>
         <content type="html">&lt;h2 id=&#34;何为线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#何为线性表&#34;&gt;#&lt;/a&gt; 何为线性表&lt;/h2&gt;
 &lt;p&gt;线性表，顾名思义，就是表中的数据排列成线性的一种数据结构，是零个或多个数据元素的&lt;strong&gt;有限序列&lt;/strong&gt;。简单举个例子，就是排队。&lt;/p&gt;
 &lt;h3 id=&#34;有限序列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#有限序列&#34;&gt;#&lt;/a&gt; 有限序列&lt;/h3&gt;
@@ -138,7 +138,7 @@ Operation
         <category term="数据结构" scheme="https://blog.msforever.xyz/categories/note/computer-science/data-structure/" />
         <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
         <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
-        <updated>2020-09-28T10:11:44.725Z</updated>
+        <updated>2020-09-28T10:19:04.753Z</updated>
     </entry>
     <entry>
         <id>https://blog.msforever.xyz/instructions-on-the-blog/</id>
