@@ -8,7 +8,98 @@
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-09-26T14:38:35.605Z</updated>
+    <updated>2020-09-28T05:31:25.456Z</updated>
+    <entry>
+        <id>https://blog.msforever.xyz/instructions-on-the-blog/</id>
+        <title>基于Hexo的博客的安装和配置</title>
+        <link rel="alternate" href="https://blog.msforever.xyz/instructions-on-the-blog/"/>
+        <content type="html">&lt;p&gt;也不知道能写点啥，姑且写写博客配置的过程吧。&lt;/p&gt;
+&lt;h2 id=&#34;博客的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客的安装&#34;&gt;#&lt;/a&gt; 博客的安装&lt;/h2&gt;
+&lt;p&gt;我使用的是 Debian 9 x64。安装 Hexo 需要先安装 Node.js 和 Git 。&lt;/p&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;&lt;strong&gt;你需要  &lt;code&gt;root&lt;/code&gt;  权限。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;安装git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装git&#34;&gt;#&lt;/a&gt; 安装 Git&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; git-core&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;安装nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装nodejs&#34;&gt;#&lt;/a&gt; 安装 Node.js&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -sL https://deb.nodesource.com/setup_current.x &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; -&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; -y nodejs&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;安装hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装hexo&#34;&gt;#&lt;/a&gt; 安装 Hexo&lt;/h3&gt;
+&lt;p&gt;在安装完 &lt;em&gt;Git&lt;/em&gt; 和 &lt;em&gt;Node.js&lt;/em&gt; 之后，我们便可以使用 npm 来安装 &lt;em&gt;Hexo&lt;/em&gt; 。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; -g hexo-cli&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;初始化博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初始化博客&#34;&gt;#&lt;/a&gt; 初始化博客&lt;/h2&gt;
+&lt;p&gt;在安装完后，你需要手动新建博客。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;folder&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;#你想要的文件夹的名称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#该命令会使 Hexo 初始化一个新博客于你指定名称和路径的文件夹。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#例如你在～/ 下执行 hexo init blog，就会建立一个为～/blog 的文件夹用于存放博客数据。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;folder&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; ·       &lt;span class=&#34;token comment&#34;&gt;#切换到博客根目录&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;程序运行完毕后，指定文件夹的目录应该会被初始化如&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.
+├── _config.yml
+├── package.json
+├── scaffolds
+├── source
+|   ├── _drafts
+|   └── _posts
+└── themes
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;_configyml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#_configyml&#34;&gt;#&lt;/a&gt; _config.yml&lt;/h3&gt;
+&lt;p&gt;该文件存放博客的配置信息。有些插件也需要在此处进行设置。&lt;/p&gt;
+&lt;h3 id=&#34;packagejson&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#packagejson&#34;&gt;#&lt;/a&gt; package.json&lt;/h3&gt;
+&lt;p&gt;应用程序的信息。EJS，Stylus 和 Markdown renderer 默认会被安装，你可以自由移除。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;package.json
+&amp;#123;
+  &amp;quot;name&amp;quot;: &amp;quot;hexo-site&amp;quot;,
+  &amp;quot;version&amp;quot;: &amp;quot;0.0.0&amp;quot;,
+  &amp;quot;private&amp;quot;: true,
+  &amp;quot;hexo&amp;quot;: &amp;#123;
+    &amp;quot;version&amp;quot;: &amp;quot;&amp;quot;
+  &amp;#125;,
+  &amp;quot;dependencies&amp;quot;: &amp;#123;
+    &amp;quot;hexo&amp;quot;: &amp;quot;^3.8.0&amp;quot;,
+    &amp;quot;hexo-generator-archive&amp;quot;: &amp;quot;^0.1.5&amp;quot;,
+    &amp;quot;hexo-generator-category&amp;quot;: &amp;quot;^0.1.3&amp;quot;,
+    &amp;quot;hexo-generator-index&amp;quot;: &amp;quot;^0.2.1&amp;quot;,
+    &amp;quot;hexo-generator-tag&amp;quot;: &amp;quot;^0.2.0&amp;quot;,
+    &amp;quot;hexo-renderer-ejs&amp;quot;: &amp;quot;^0.3.1&amp;quot;,
+    &amp;quot;hexo-renderer-stylus&amp;quot;: &amp;quot;^0.3.3&amp;quot;,
+    &amp;quot;hexo-renderer-marked&amp;quot;: &amp;quot;^0.3.2&amp;quot;,
+    &amp;quot;hexo-server&amp;quot;: &amp;quot;^0.3.3&amp;quot;
+  &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;scaffolds&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scaffolds&#34;&gt;#&lt;/a&gt; scaffolds&lt;/h3&gt;
+&lt;p&gt;模板文件夹。新建文章时，Hexo 会根据其内容物来建立文件。&lt;br /&gt;
+Hexo 的模板指的是在新建的文章（.md）中默认填充的内容。&lt;/p&gt;
+&lt;h3 id=&#34;source&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#source&#34;&gt;#&lt;/a&gt; source&lt;/h3&gt;
+&lt;p&gt;资源文件夹。存放用户资源。除了 &lt;code&gt;_posts&lt;/code&gt;  文件夹之外，开头命名为 &lt;code&gt;_&lt;/code&gt; 的文件 / 文件夹和隐藏的文件将被忽略。Markdown 和 HTML 文件会被解析并放到  &lt;code&gt;public&lt;/code&gt;  文件夹，其余文件会被直接拷贝。&lt;/p&gt;
+&lt;h3 id=&#34;themes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#themes&#34;&gt;#&lt;/a&gt; themes&lt;/h3&gt;
+&lt;p&gt;主题文件夹。Hexo 会根据主题来生成静态页面。&lt;/p&gt;
+&lt;h2 id=&#34;使用-git-同步博客源文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-git-同步博客源文件&#34;&gt;#&lt;/a&gt; 使用 Git 同步博客源文件&lt;/h2&gt;
+&lt;p&gt;在实际的使用中，你可能像我一样因为诸如 ssh 操作不便，希望能在远端修改配置等原因，想把文件上传到 Github 的私有仓库或自家 NAS 的 git 仓库里慢慢改。&lt;/p&gt;
+&lt;h3 id=&#34;git-使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-使用&#34;&gt;#&lt;/a&gt; Git 使用&lt;/h3&gt;
+&lt;p&gt;首先，确定你在博客的根目录下。执行：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如此，你初始化了一个空的 Git 仓库。&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;ls -a&lt;/code&gt;  命令可以查看当前目录下的所有文件 / 文件夹。你可以看到在你的博客根目录下生成了 &lt;code&gt;.git&lt;/code&gt;  文件夹。&lt;/p&gt;
+&lt;p&gt;接下来，你可以使用&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; ./&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;来添加该目录下的所有文件 / 文件夹到你的 git 仓库暂存区中。&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;值得注意的是，如果该目录下的文件夹中包含 &lt;code&gt;.git&lt;/code&gt;  文件夹，即该文件夹有另外一个 git 仓库，&lt;strong&gt;该文件夹内的文件不会被添加到仓库中。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;另外，每次你修改文件后想要推送，都需要先执行一次 &lt;code&gt;git add ./&lt;/code&gt; ，来将修改后的文件添加到暂存区。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;在将文件推送至远端 git 仓库前，你需要先将暂存区提交到本地仓库。执行：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit -m &lt;span class=&#34;token string&#34;&gt;&#34;你的提交信息&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以将暂存区提交到本地仓库。&lt;/p&gt;
+&lt;p&gt;成功提交后，你可以执行：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;你的远端git地址&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;分支名&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#例如 git push git@github.com:Win7GM/Hexo-resources.git master&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以将本地仓库内容推送到远端 git 仓库。&lt;/p&gt;
+&lt;h2 id=&#34;配置博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置博客&#34;&gt;#&lt;/a&gt; 配置博客&lt;/h2&gt;
+&lt;h3 id=&#34;_configyml-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#_configyml-2&#34;&gt;#&lt;/a&gt; _config.yml&lt;/h3&gt;
+&lt;p&gt;_config.yml 是博客的基础配置。&lt;/p&gt;
+&lt;h2 id=&#34;引用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用&#34;&gt;#&lt;/a&gt; 引用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mv&#34;&gt;Hexo&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;Yume Shoka&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="杂项" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/" />
+        <category term="博客" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2/" />
+        <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
+        <category term="manual" scheme="https://blog.msforever.xyz/tags/manual/" />
+        <updated>2020-09-28T05:31:25.456Z</updated>
+    </entry>
     <entry>
         <id>https://blog.msforever.xyz/data-structures-1/</id>
         <title>1.线性表</title>
@@ -138,96 +229,6 @@ Operation
         <category term="数据结构" scheme="https://blog.msforever.xyz/categories/%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" />
         <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
         <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
-        <updated>2020-09-26T14:38:35.605Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.msforever.xyz/instructions-on-the-blog/</id>
-        <title>基于Hexo的博客的安装和配置</title>
-        <link rel="alternate" href="https://blog.msforever.xyz/instructions-on-the-blog/"/>
-        <content type="html">&lt;p&gt;也不知道能写点啥，姑且写写博客配置的过程吧。&lt;/p&gt;
-&lt;h2 id=&#34;博客的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客的安装&#34;&gt;#&lt;/a&gt; 博客的安装&lt;/h2&gt;
-&lt;p&gt;我使用的是 Debian 9 x64。安装 Hexo 需要先安装 Node.js 和 Git 。&lt;/p&gt;
-&lt;div class=&#34;note danger&#34;&gt;
-&lt;p&gt;&lt;strong&gt;你需要  &lt;code&gt;root&lt;/code&gt;  权限。&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;安装git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装git&#34;&gt;#&lt;/a&gt; 安装 Git&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; git-core&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;安装nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装nodejs&#34;&gt;#&lt;/a&gt; 安装 Node.js&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -sL https://deb.nodesource.com/setup_current.x &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; -&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; -y nodejs&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;安装hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装hexo&#34;&gt;#&lt;/a&gt; 安装 Hexo&lt;/h3&gt;
-&lt;p&gt;在安装完 &lt;em&gt;Git&lt;/em&gt; 和 &lt;em&gt;Node.js&lt;/em&gt; 之后，我们便可以使用 npm 来安装 &lt;em&gt;Hexo&lt;/em&gt; 。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; -g hexo-cli&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;初始化博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初始化博客&#34;&gt;#&lt;/a&gt; 初始化博客&lt;/h2&gt;
-&lt;p&gt;在安装完后，你需要手动新建博客。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;folder&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;#你想要的文件夹的名称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#该命令会使 Hexo 初始化一个新博客于你指定名称和路径的文件夹。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#例如你在～/ 下执行 hexo init blog，就会建立一个为～/blog 的文件夹用于存放博客数据。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;folder&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; ·       &lt;span class=&#34;token comment&#34;&gt;#切换到博客根目录&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;程序运行完毕后，指定文件夹的目录应该会被初始化如&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.
-├── _config.yml
-├── package.json
-├── scaffolds
-├── source
-|   ├── _drafts
-|   └── _posts
-└── themes
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;_configyml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#_configyml&#34;&gt;#&lt;/a&gt; _config.yml&lt;/h3&gt;
-&lt;p&gt;该文件存放博客的配置信息。有些插件也需要在此处进行设置。&lt;/p&gt;
-&lt;h3 id=&#34;packagejson&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#packagejson&#34;&gt;#&lt;/a&gt; package.json&lt;/h3&gt;
-&lt;p&gt;应用程序的信息。EJS，Stylus 和 Markdown renderer 默认会被安装，你可以自由移除。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;package.json
-&amp;#123;
-  &amp;quot;name&amp;quot;: &amp;quot;hexo-site&amp;quot;,
-  &amp;quot;version&amp;quot;: &amp;quot;0.0.0&amp;quot;,
-  &amp;quot;private&amp;quot;: true,
-  &amp;quot;hexo&amp;quot;: &amp;#123;
-    &amp;quot;version&amp;quot;: &amp;quot;&amp;quot;
-  &amp;#125;,
-  &amp;quot;dependencies&amp;quot;: &amp;#123;
-    &amp;quot;hexo&amp;quot;: &amp;quot;^3.8.0&amp;quot;,
-    &amp;quot;hexo-generator-archive&amp;quot;: &amp;quot;^0.1.5&amp;quot;,
-    &amp;quot;hexo-generator-category&amp;quot;: &amp;quot;^0.1.3&amp;quot;,
-    &amp;quot;hexo-generator-index&amp;quot;: &amp;quot;^0.2.1&amp;quot;,
-    &amp;quot;hexo-generator-tag&amp;quot;: &amp;quot;^0.2.0&amp;quot;,
-    &amp;quot;hexo-renderer-ejs&amp;quot;: &amp;quot;^0.3.1&amp;quot;,
-    &amp;quot;hexo-renderer-stylus&amp;quot;: &amp;quot;^0.3.3&amp;quot;,
-    &amp;quot;hexo-renderer-marked&amp;quot;: &amp;quot;^0.3.2&amp;quot;,
-    &amp;quot;hexo-server&amp;quot;: &amp;quot;^0.3.3&amp;quot;
-  &amp;#125;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;scaffolds&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scaffolds&#34;&gt;#&lt;/a&gt; scaffolds&lt;/h3&gt;
-&lt;p&gt;模板文件夹。新建文章时，Hexo 会根据其内容物来建立文件。&lt;br /&gt;
-Hexo 的模板指的是在新建的文章（.md）中默认填充的内容。&lt;/p&gt;
-&lt;h3 id=&#34;source&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#source&#34;&gt;#&lt;/a&gt; source&lt;/h3&gt;
-&lt;p&gt;资源文件夹。存放用户资源。除了 &lt;code&gt;_posts&lt;/code&gt;  文件夹之外，开头命名为 &lt;code&gt;_&lt;/code&gt; 的文件 / 文件夹和隐藏的文件将被忽略。Markdown 和 HTML 文件会被解析并放到  &lt;code&gt;public&lt;/code&gt;  文件夹，其余文件会被直接拷贝。&lt;/p&gt;
-&lt;h3 id=&#34;themes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#themes&#34;&gt;#&lt;/a&gt; themes&lt;/h3&gt;
-&lt;p&gt;主题文件夹。Hexo 会根据主题来生成静态页面。&lt;/p&gt;
-&lt;h2 id=&#34;使用-git-同步博客源文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-git-同步博客源文件&#34;&gt;#&lt;/a&gt; 使用 Git 同步博客源文件&lt;/h2&gt;
-&lt;p&gt;在实际的使用中，你可能像我一样因为诸如 ssh 操作不便，希望能在远端修改配置等原因，想把文件上传到 Github 的私有仓库或自家 NAS 的 git 仓库里慢慢改。&lt;/p&gt;
-&lt;h3 id=&#34;git-使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-使用&#34;&gt;#&lt;/a&gt; Git 使用&lt;/h3&gt;
-&lt;p&gt;首先，确定你在博客的根目录下。执行：&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如此，你初始化了一个空的 Git 仓库。&lt;/p&gt;
-&lt;p&gt;使用 &lt;code&gt;ls -a&lt;/code&gt;  命令可以查看当前目录下的所有文件 / 文件夹。你可以看到在你的博客根目录下生成了 &lt;code&gt;.git&lt;/code&gt;  文件夹。&lt;/p&gt;
-&lt;p&gt;接下来，你可以使用&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; ./&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;来添加该目录下的所有文件 / 文件夹到你的 git 仓库暂存区中。&lt;/p&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;值得注意的是，如果该目录下的文件夹中包含 &lt;code&gt;.git&lt;/code&gt;  文件夹，即该文件夹有另外一个 git 仓库，&lt;strong&gt;该文件夹内的文件不会被添加到仓库中。&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;另外，每次你修改文件后想要推送，都需要先执行一次 &lt;code&gt;git add ./&lt;/code&gt; ，来将修改后的文件添加到暂存区。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;在将文件推送至远端 git 仓库前，你需要先将暂存区提交到本地仓库。执行：&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit -m &lt;span class=&#34;token string&#34;&gt;&#34;你的提交信息&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以将暂存区提交到本地仓库。&lt;/p&gt;
-&lt;p&gt;成功提交后，你可以执行：&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;你的远端git地址&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;分支名&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#例如 git push git@github.com:Win7GM/Hexo-resources.git master&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以将本地仓库内容推送到远端 git 仓库。&lt;/p&gt;
-&lt;h2 id=&#34;配置博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置博客&#34;&gt;#&lt;/a&gt; 配置博客&lt;/h2&gt;
-&lt;h3 id=&#34;_configyml-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#_configyml-2&#34;&gt;#&lt;/a&gt; _config.yml&lt;/h3&gt;
-&lt;p&gt;_config.yml 是博客的基础配置。&lt;/p&gt;
-&lt;h2 id=&#34;引用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用&#34;&gt;#&lt;/a&gt; 引用&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mv&#34;&gt;Hexo&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;Yume Shoka&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <category term="杂项" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/" />
-        <category term="博客" scheme="https://blog.msforever.xyz/categories/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2/" />
-        <category term="manual" scheme="https://blog.msforever.xyz/tags/manual/" />
         <updated>2020-09-26T14:38:35.605Z</updated>
     </entry>
     <entry>
