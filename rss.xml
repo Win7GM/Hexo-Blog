@@ -10,8 +10,8 @@
         </author>
         <description>Anything.</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 06 Oct 2020 01:01:20 +0800</pubDate>
-        <lastBuildDate>Tue, 06 Oct 2020 01:01:20 +0800</lastBuildDate>
+        <pubDate>Tue, 06 Oct 2020 01:09:03 +0800</pubDate>
+        <lastBuildDate>Tue, 06 Oct 2020 01:09:03 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">https://blog.msforever.xyz/note/maths/discrete-mathematics/discrete-mathematics-1/</guid>
             <title>数理逻辑</title>
@@ -21,7 +21,7 @@
             <category term="离散数学" scheme="https://blog.msforever.xyz/categories/note/maths/discrete-mathematics/" />
             <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
             <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
-            <pubDate>Tue, 06 Oct 2020 01:01:20 +0800</pubDate>
+            <pubDate>Tue, 06 Oct 2020 01:09:03 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;命题与联结词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#命题与联结词&#34;&gt;#&lt;/a&gt; 命题与联结词&lt;/h2&gt;
 &lt;p&gt;数理逻辑是研究推理的数学分支，推理由一系列的陈述句组成。非真即假的陈述句称作&lt;strong&gt;命题&lt;/strong&gt;。例如：因为&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3&amp;gt;2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68354em;vertical-align:-0.0391em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，所以&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;≠&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3\not=2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;rlap&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;inner&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;fix&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.19444em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.36687em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
 &lt;p&gt;作为命题的陈述句，它所表达的判断结果称作命题的&lt;strong&gt;真值&lt;/strong&gt;。真值只取&lt;strong&gt;真&lt;/strong&gt;或&lt;strong&gt;假&lt;/strong&gt;。任何命题的真值都是唯一的。即：&lt;strong&gt;“真值” 不唯一的陈述句不是命题&lt;/strong&gt;。&lt;/p&gt;
@@ -33,9 +33,10 @@
 &lt;ol&gt;
 &lt;li&gt;“我正在说假话” 这句陈述句是命题吗？如果是，是什么命题？&lt;span class=&#34;gap quiz&#34;&gt;&lt;/span&gt;
 &lt;ul class=&#34;options&#34;&gt;
-&lt;li&gt;&lt;code&gt;真命题;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;假命题;&lt;/code&gt;&lt;/li&gt;
-&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;不是命题;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;真命题；&lt;/li&gt;
+&lt;li&gt;假命题；&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;不是命题；&lt;/li&gt;
+&lt;li&gt;测试凑数&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这种由真能推出假，由假能推出真，于是不能为真，也不能为假的陈述句称为&lt;strong&gt;悖论&lt;/strong&gt;。&lt;strong&gt;悖论不是命题。&lt;/strong&gt;&lt;/p&gt;
