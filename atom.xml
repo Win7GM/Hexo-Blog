@@ -92,7 +92,7 @@
 </content>
         <category term="笔记" scheme="https://blog.msforever.xyz/categories/note/" />
         <category term="数学" scheme="https://blog.msforever.xyz/categories/note/maths/" />
-        <category term="高等数学" scheme="https://blog.msforever.xyz/categories/note/maths/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="高等数学" scheme="https://blog.msforever.xyz/categories/note/maths/advanced-mathematics/" />
         <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
         <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
         <updated>2020-10-08T15:49:13.880Z</updated>
