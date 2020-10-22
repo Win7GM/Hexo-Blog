@@ -8,7 +8,7 @@
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-10-22T15:59:22.680Z</updated>
+    <updated>2020-10-22T16:09:00.999Z</updated>
     <entry>
         <id>https://blog.msforever.xyz/note/maths/discrete-mathematics/discrete-mathematics-1/</id>
         <title>数理逻辑</title>
@@ -143,7 +143,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;幂等律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\iff A \lor A \newline A\iff A\land A$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}A\iff A \lor A \ A\iff A\land A\end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;交换律&lt;/td&gt;
@@ -221,7 +221,7 @@
         <category term="离散数学" scheme="https://blog.msforever.xyz/categories/note/maths/discrete-mathematics/" />
         <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
         <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
-        <updated>2020-10-22T15:59:22.680Z</updated>
+        <updated>2020-10-22T16:09:00.999Z</updated>
     </entry>
     <entry>
         <id>https://blog.msforever.xyz/note/computer-science/data-structure/data-structures-1/</id>
