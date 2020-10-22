@@ -10,8 +10,8 @@
         </author>
         <description>Anything.</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 22 Oct 2020 23:49:42 +0800</pubDate>
-        <lastBuildDate>Thu, 22 Oct 2020 23:49:42 +0800</lastBuildDate>
+        <pubDate>Thu, 22 Oct 2020 23:59:22 +0800</pubDate>
+        <lastBuildDate>Thu, 22 Oct 2020 23:59:22 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">https://blog.msforever.xyz/note/maths/discrete-mathematics/discrete-mathematics-1/</guid>
             <title>数理逻辑</title>
@@ -21,7 +21,7 @@
             <category term="离散数学" scheme="https://blog.msforever.xyz/categories/note/maths/discrete-mathematics/" />
             <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
             <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
-            <pubDate>Thu, 22 Oct 2020 23:49:42 +0800</pubDate>
+            <pubDate>Thu, 22 Oct 2020 23:59:22 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;命题逻辑的基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#命题逻辑的基本概念&#34;&gt;#&lt;/a&gt; 命题逻辑的基本概念&lt;/h2&gt;
 &lt;h3 id=&#34;命题与联结词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#命题与联结词&#34;&gt;#&lt;/a&gt; 命题与联结词&lt;/h3&gt;
 &lt;p&gt;数理逻辑是研究推理的数学分支，推理由一系列的陈述句组成。非真即假的陈述句称作&lt;strong&gt;命题&lt;/strong&gt;。例如：因为&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3&amp;gt;2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68354em;vertical-align:-0.0391em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，所以&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;≠&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3\not=2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;span class=&#34;mord vbox&#34;&gt;&lt;span class=&#34;thinbox&#34;&gt;&lt;span class=&#34;rlap&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;inner&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;fix&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.36687em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
@@ -152,7 +152,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;幂等律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\iff A \lor A\\ A\iff A\land A$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$A\iff A \lor A \newline A\iff A\land A$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;交换律&lt;/td&gt;
