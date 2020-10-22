@@ -8,7 +8,7 @@
     <author>
       <name>Win7GM</name>
     </author>
-    <updated>2020-10-22T16:09:00.999Z</updated>
+    <updated>2020-10-22T16:15:21.907Z</updated>
     <entry>
         <id>https://blog.msforever.xyz/note/maths/discrete-mathematics/discrete-mathematics-1/</id>
         <title>数理逻辑</title>
@@ -147,15 +147,15 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;交换律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\lor B\iff B\lor A \\ A\land B\iff B\land A$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}A\lor B\iff B\lor A \ A\land B\iff B\land A\end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;结合律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$(A\lor B)\lor C\iff A\lor(B\lor C)\\ (A\land B)\land C\iff A\land(B\land C)$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}(A\lor B)\lor C\iff A\lor(B\lor C)\ (A\land B)\land C\iff A\land(B\land C)\end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;分配律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\lor(B\land C)\iff(A\lor B)\land(A\lor C)\\ A\land(B\lor C)\iff(A\land B)\lor(A\land C)$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}A\lor(B\land C)\iff(A\lor B)\land(A\lor C)\ A\land(B\lor C)\iff(A\land B)\lor(A\land C)\end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;德摩根律&lt;/td&gt;
@@ -163,15 +163,15 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;吸收律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\lor(A\land B)\iff A\\ A\land(A\lor B)\iff A$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}A\lor(A\land B)\iff A\ A\land(A\lor B)\iff A \end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;零律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\lor 1\iff 1\\ A\land 0\iff 0$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}A\lor 1\iff 1\ A\land 0\iff 0\end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;同一律&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$$A\lor 0\iff A\\ A\land 1\iff A$$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$$\begin{aligned}A\lor 0\iff A\ A\land 1\iff A\end{aligned}$$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;排中律&lt;/td&gt;
@@ -221,7 +221,7 @@
         <category term="离散数学" scheme="https://blog.msforever.xyz/categories/note/maths/discrete-mathematics/" />
         <category term="unfinished" scheme="https://blog.msforever.xyz/tags/unfinished/" />
         <category term="note" scheme="https://blog.msforever.xyz/tags/note/" />
-        <updated>2020-10-22T16:09:00.999Z</updated>
+        <updated>2020-10-22T16:15:21.907Z</updated>
     </entry>
     <entry>
         <id>https://blog.msforever.xyz/note/computer-science/data-structure/data-structures-1/</id>
